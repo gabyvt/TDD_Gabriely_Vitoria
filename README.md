@@ -1,17 +1,27 @@
-# Gerenciador de Tarefas (To-Do List)
+📝 Gerenciador de Tarefas (To-Do List)
 
-Projeto desenvolvido como prática de **TDD (Test-Driven Development)**.
+Este projeto foi desenvolvido como parte da prática de Desenvolvimento Guiado por Testes (TDD – Test-Driven Development), com foco em criar um sistema simples e funcional para gerenciamento de tarefas pessoais.
 
-## 🧠 Objetivo
+🎯 Objetivo
 
-Implementar um sistema simples de tarefas pessoais com:
+O propósito do projeto é aplicar os princípios de TDD na implementação de uma aplicação que permita:
 
-- Criação, listagem, conclusão e remoção de tarefas.
-- Validações de título (não vazio, não duplicado).
+Adicionar novas tarefas com título e descrição.
 
-## ⚙️ Tecnologias
+Listar todas as tarefas registradas.
 
-- **Python 3**
-- **Pytest**
+Marcar tarefas como concluídas.
 
-## 🧩 Estrutura
+Remover tarefas da lista.
+
+Garantir validações básicas, como:
+
+Impedir títulos vazios.
+
+Evitar tarefas duplicadas.
+
+⚙️ Tecnologias Utilizadas
+
+Python 3.x
+
+Pytest – para criação e execução dos testes automatizados.
