@@ -19,4 +19,11 @@ def test_remover_tarefa():
     todo.adicionar_tarefa("Dormir", "descansar bem")
     todo.remover_tarefa("Dormir")
     assert len(todo.listar_tarefas()) == 0
+    
+def test_editar_tarefa():
+    todo = ToDoList()
+    todo.adicionar_tarefa("Ler livro", "Capítulo 1")
+    todo.editar_tarefa("Ler livro", "Capítulo 2")
+    tarefas = todo.listar_tarefas()
+    assert tarefas[0]["descricao"] == "Capítulo 2"
 
